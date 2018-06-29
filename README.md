@@ -56,3 +56,12 @@ wget https://bootstrap.pypa.io/get-pip.py
 sudo python3 get-pip.py
 pip3 install numpy
 ```
+
+To monitor temperature use
+```
+cat /sys/devices/virtual/thermal/thermal_zone1/temp 
+or
+cat /sys/devices/virtual/thermal/thermal_zone0/temp
+```
+The save temperature is above 80C. For 80C or more use one nice coller.
+
