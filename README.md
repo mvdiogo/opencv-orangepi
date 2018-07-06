@@ -44,7 +44,7 @@ sudo apt-get install libatlas-base-dev gfortran
 ```
 download opencv-3.3.0-build-arm-ubuntu.tar.gz 
 ```
-wget https://github.com/mvdiogo/opencv-orangepi/blob/master/opencv-3.3.0-build-arm-ubuntu.tar.gz
+wget https://github.com/mvdiogo/opencv-orangepi/raw/master/opencv-3.3.0-build-arm-ubuntu.tar.gz
 tar -xzvf opencv-3.3.0-build-arm-ubuntu.tar.gz
 cd opencv-3.3.0-build-arm-ubuntu.tar.gz
 make install
